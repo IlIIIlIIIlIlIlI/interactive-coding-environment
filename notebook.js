@@ -1,0 +1,1 @@
+[{"content":"import React from 'react';\nimport ReactDOM from 'react-dom';\n\nconst App = () => <h1>Hi there: </h1>;\n\nReactDOM.render(\n<App />, document.querySelector('#root')\n);\n\n\n\n\n\n\n","type":"code","id":"qmzik"}]
