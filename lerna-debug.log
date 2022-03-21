@@ -7,7 +7,7 @@
 0 silly argv }
 1 notice cli v3.22.1
 2 verbose rootPath /Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook
-3 verbose session 9ccb6b1c075eeacb
+3 verbose session 01002918be0f24d7
 4 verbose user-agent lerna/3.22.1/node@v14.18.0+arm64 (darwin)
 5 silly argv {
 5 silly argv   _: [ 'publish' ],
@@ -16,114 +16,127 @@
 5 silly argv   lernaVersion: '3.22.1'
 5 silly argv }
 6 verbose rootPath /Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook
-7 info current version 0.0.0
+7 info current version 1.0.0
 8 silly isAnythingCommitted
 9 verbose isAnythingCommitted 1
 10 silly currentBranch
 11 verbose currentBranch master
 12 silly hasTags
-13 verbose hasTags false
-14 info Assuming all packages changed
-15 verbose updated cli_srj
-16 verbose updated @cli_srj/local-api
-17 verbose updated @cli_srj/local-client
-18 verbose git-describe undefined => "6b4706c"
-19 silly git-describe parsed => {"refCount":"1","sha":"6b4706c","isDirty":false}
-20 info execute Skipping git push
-21 info execute Skipping releases
-22 silly lifecycle No script for "preversion" in "root", continuing
-23 silly lifecycle No script for "preversion" in "@cli_srj/local-client", continuing
-24 silly lifecycle No script for "version" in "@cli_srj/local-client", continuing
-25 silly lifecycle No script for "preversion" in "@cli_srj/local-api", continuing
-26 silly lifecycle No script for "version" in "@cli_srj/local-api", continuing
-27 silly lifecycle No script for "preversion" in "cli_srj", continuing
-28 silly lifecycle No script for "version" in "cli_srj", continuing
-29 silly lifecycle No script for "version" in "root", continuing
-30 silly gitAdd [
-30 silly gitAdd   'packages/local-client/package.json',
-30 silly gitAdd   'packages/local-client/package-lock.json',
-30 silly gitAdd   'packages/local-api/package.json',
-30 silly gitAdd   'packages/local-api/package-lock.json',
-30 silly gitAdd   'packages/cli/package.json',
-30 silly gitAdd   'packages/cli/package-lock.json',
-30 silly gitAdd   'lerna.json'
-30 silly gitAdd ]
-31 silly gitCommit v1.0.0
-32 verbose git [ 'commit', '-m', 'v1.0.0' ]
-33 silly gitTag v1.0.0
-34 verbose git [ 'tag', 'v1.0.0', '-m', 'v1.0.0' ]
-35 silly lifecycle No script for "postversion" in "cli_srj", continuing
-36 silly lifecycle No script for "postversion" in "@cli_srj/local-api", continuing
-37 silly lifecycle No script for "postversion" in "@cli_srj/local-client", continuing
-38 silly lifecycle No script for "postversion" in "root", continuing
-39 info publish Publishing packages to npm...
-40 info Verifying npm credentials
-41 verbose Retrieving npm user profile
-42 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 695ms
-43 silly npm profile get received {"tfa":false,"name":"suraj_jaiswal","email":"srj1431998@gmail.com","email_verified":true,"created":"2022-03-21T12:14:08.093Z","updated":"2022-03-21T12:14:08.087Z","cidr_whitelist":null}
-44 silly get npm username received {"username":"suraj_jaiswal","tfa":false,"name":"suraj_jaiswal","email":"srj1431998@gmail.com","email_verified":true,"created":"2022-03-21T12:14:08.093Z","updated":"2022-03-21T12:14:08.087Z","cidr_whitelist":null}
-45 silly verifyNpmPackageAccess
-46 http fetch GET 200 https://registry.npmjs.org/-/org/suraj_jaiswal/package?format=cli 504ms
-47 info Checking two-factor auth mode
-48 verbose Retrieving npm user profile
-49 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 518ms
-50 silly npm profile get received {"tfa":false,"name":"suraj_jaiswal","email":"srj1431998@gmail.com","email_verified":true,"created":"2022-03-21T12:14:08.093Z","updated":"2022-03-21T12:14:08.087Z","cidr_whitelist":null}
-51 silly 2FA false
-52 warn ENOLICENSE Packages cli_srj, @cli_srj/local-api, and @cli_srj/local-client are missing a license.
-52 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
-52 warn ENOLICENSE See https://choosealicense.com for additional guidance.
-53 silly getCurrentSHA
-54 verbose getCurrentSHA 59f5c244161ee79d4986a1bc623946a99a5f403e
-55 silly lifecycle No script for "prepublish" in "root", continuing
-56 silly lifecycle No script for "prepare" in "root", continuing
-57 silly lifecycle No script for "prepublishOnly" in "root", continuing
-58 silly lifecycle No script for "prepack" in "root", continuing
-59 verbose pack-directory packages/local-client
-60 silly lifecycle No script for "prepublish" in "@cli_srj/local-client", continuing
-61 silly lifecycle No script for "prepare" in "@cli_srj/local-client", continuing
-62 silly lifecycle "prepublishOnly" starting in "@cli_srj/local-client"
-63 info lifecycle @cli_srj/local-client@1.0.0~prepublishOnly: @cli_srj/local-client@1.0.0
-64 verbose lifecycle @cli_srj/local-client@1.0.0~prepublishOnly: unsafe-perm in lifecycle true
-65 verbose lifecycle @cli_srj/local-client@1.0.0~prepublishOnly: PATH: /Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/npm-lifecycle/node-gyp-bin:/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/packages/local-client/node_modules/.bin:/Users/surajjaiswal/.nvm/versions/node/v14.18.0/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/mysql/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/surajjaiswal/.nvm/versions/node/v14.18.0/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/mysql/bin:/opt/homebrew/bin:/opt/homebrew/sbin
-66 verbose lifecycle @cli_srj/local-client@1.0.0~prepublishOnly: CWD: /Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/packages/local-client
-67 silly lifecycle @cli_srj/local-client@1.0.0~prepublishOnly: Args: [ '-c', 'npm run build' ]
-68 silly lifecycle @cli_srj/local-client@1.0.0~prepublishOnly: Returned: code: 0  signal: null
-69 silly lifecycle "prepublishOnly" finished in "@cli_srj/local-client"
-70 silly lifecycle No script for "prepack" in "@cli_srj/local-client", continuing
-71 silly lifecycle No script for "postpack" in "@cli_srj/local-client", continuing
-72 verbose packed packages/local-client
-73 verbose pack-directory packages/cli
-74 verbose pack-directory packages/local-api
-75 silly lifecycle No script for "prepublish" in "cli_srj", continuing
-76 silly lifecycle No script for "prepublish" in "@cli_srj/local-api", continuing
-77 silly lifecycle No script for "prepare" in "cli_srj", continuing
-78 silly lifecycle No script for "prepare" in "@cli_srj/local-api", continuing
-79 silly lifecycle "prepublishOnly" starting in "cli_srj"
-80 info lifecycle cli_srj@1.0.0~prepublishOnly: cli_srj@1.0.0
-81 silly lifecycle "prepublishOnly" starting in "@cli_srj/local-api"
-82 info lifecycle @cli_srj/local-api@1.0.0~prepublishOnly: @cli_srj/local-api@1.0.0
-83 verbose lifecycle cli_srj@1.0.0~prepublishOnly: unsafe-perm in lifecycle true
-84 verbose lifecycle cli_srj@1.0.0~prepublishOnly: PATH: /Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/npm-lifecycle/node-gyp-bin:/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/packages/cli/node_modules/.bin:/Users/surajjaiswal/.nvm/versions/node/v14.18.0/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/mysql/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/surajjaiswal/.nvm/versions/node/v14.18.0/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/mysql/bin:/opt/homebrew/bin:/opt/homebrew/sbin
-85 verbose lifecycle cli_srj@1.0.0~prepublishOnly: CWD: /Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/packages/cli
-86 silly lifecycle cli_srj@1.0.0~prepublishOnly: Args: [
-86 silly lifecycle   '-c',
-86 silly lifecycle   'esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\"production\\"'
-86 silly lifecycle ]
-87 silly lifecycle cli_srj@1.0.0~prepublishOnly: Returned: code: 0  signal: null
-88 verbose lifecycle @cli_srj/local-api@1.0.0~prepublishOnly: unsafe-perm in lifecycle true
-89 verbose lifecycle @cli_srj/local-api@1.0.0~prepublishOnly: PATH: /Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/npm-lifecycle/node-gyp-bin:/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/packages/local-api/node_modules/.bin:/Users/surajjaiswal/.nvm/versions/node/v14.18.0/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/mysql/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/surajjaiswal/.nvm/versions/node/v14.18.0/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/mysql/bin:/opt/homebrew/bin:/opt/homebrew/sbin
-90 verbose lifecycle @cli_srj/local-api@1.0.0~prepublishOnly: CWD: /Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/packages/local-api
-91 silly lifecycle @cli_srj/local-api@1.0.0~prepublishOnly: Args: [ '-c', 'tsc' ]
-92 silly lifecycle "prepublishOnly" finished in "cli_srj"
-93 silly lifecycle No script for "prepack" in "cli_srj", continuing
-94 error ZlibError: zlib: invalid stored block lengths
-94 error     at Unzip.write (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/minizlib/index.js:147:22)
-94 error     at Object.write (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/tar/lib/parse.js:305:58)
-94 error     at Yallist.<anonymous> (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/minipass/index.js:374:18)
-94 error     at Yallist.forEach (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/yallist/yallist.js:156:8)
-94 error     at ReadStream.emit (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/minipass/index.js:373:20)
-94 error     at ReadStream.emit (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/fs-minipass/index.js:154:22)
-94 error     at ReadStream.write (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/minipass/index.js:163:17)
-94 error     at ReadStream.[_handleChunk] (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/fs-minipass/index.js:131:19)
-94 error     at ReadStream.[_onread] (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/fs-minipass/index.js:109:32)
-94 error     at /Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/fs-minipass/index.js:101:22
+13 verbose hasTags true
+14 silly git-describe.sync "v1.0.0-1-g4a91ef9" => {"lastTagName":"v1.0.0","lastVersion":"v1.0.0","refCount":"1","sha":"4a91ef9","isDirty":false}
+15 info Looking for changed packages since v1.0.0
+16 silly checking diff packages/cli
+17 silly found diff in packages/cli/package.json
+18 verbose filtered diff [ 'packages/cli/package.json' ]
+19 silly checking diff packages/local-api
+20 silly found diff in packages/local-api/package.json
+21 verbose filtered diff [ 'packages/local-api/package.json' ]
+22 silly checking diff packages/local-client
+23 silly found diff in packages/local-client/package.json
+24 verbose filtered diff [ 'packages/local-client/package.json' ]
+25 verbose updated cli_srj
+26 verbose updated @cli_srj/local-api
+27 verbose updated @cli_srj/local-client
+28 verbose git-describe undefined => "v1.0.0-1-g4a91ef9"
+29 silly git-describe parsed => {"lastTagName":"v1.0.0","lastVersion":"v1.0.0","refCount":"1","sha":"4a91ef9","isDirty":false}
+30 info execute Skipping git push
+31 info execute Skipping releases
+32 silly lifecycle No script for "preversion" in "root", continuing
+33 silly lifecycle No script for "preversion" in "@cli_srj/local-client", continuing
+34 silly lifecycle No script for "version" in "@cli_srj/local-client", continuing
+35 silly lifecycle No script for "preversion" in "@cli_srj/local-api", continuing
+36 silly lifecycle No script for "version" in "@cli_srj/local-api", continuing
+37 silly lifecycle No script for "preversion" in "cli_srj", continuing
+38 silly lifecycle No script for "version" in "cli_srj", continuing
+39 silly lifecycle No script for "version" in "root", continuing
+40 silly gitAdd [
+40 silly gitAdd   'packages/local-client/package.json',
+40 silly gitAdd   'packages/local-client/package-lock.json',
+40 silly gitAdd   'packages/local-api/package.json',
+40 silly gitAdd   'packages/local-api/package-lock.json',
+40 silly gitAdd   'packages/cli/package.json',
+40 silly gitAdd   'packages/cli/package-lock.json',
+40 silly gitAdd   'lerna.json'
+40 silly gitAdd ]
+41 silly gitCommit v2.0.0
+42 verbose git [ 'commit', '-m', 'v2.0.0' ]
+43 silly gitTag v2.0.0
+44 verbose git [ 'tag', 'v2.0.0', '-m', 'v2.0.0' ]
+45 silly lifecycle No script for "postversion" in "cli_srj", continuing
+46 silly lifecycle No script for "postversion" in "@cli_srj/local-api", continuing
+47 silly lifecycle No script for "postversion" in "@cli_srj/local-client", continuing
+48 silly lifecycle No script for "postversion" in "root", continuing
+49 info publish Publishing packages to npm...
+50 info Verifying npm credentials
+51 verbose Retrieving npm user profile
+52 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 542ms
+53 silly npm profile get received {"tfa":false,"name":"suraj_jaiswal","email":"srj1431998@gmail.com","email_verified":true,"created":"2022-03-21T12:14:08.093Z","updated":"2022-03-21T12:14:08.087Z","cidr_whitelist":null}
+54 silly get npm username received {"username":"suraj_jaiswal","tfa":false,"name":"suraj_jaiswal","email":"srj1431998@gmail.com","email_verified":true,"created":"2022-03-21T12:14:08.093Z","updated":"2022-03-21T12:14:08.087Z","cidr_whitelist":null}
+55 silly verifyNpmPackageAccess
+56 http fetch GET 200 https://registry.npmjs.org/-/org/suraj_jaiswal/package?format=cli 397ms
+57 info Checking two-factor auth mode
+58 verbose Retrieving npm user profile
+59 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 362ms
+60 silly npm profile get received {"tfa":false,"name":"suraj_jaiswal","email":"srj1431998@gmail.com","email_verified":true,"created":"2022-03-21T12:14:08.093Z","updated":"2022-03-21T12:14:08.087Z","cidr_whitelist":null}
+61 silly 2FA false
+62 warn ENOLICENSE Packages cli_srj, @cli_srj/local-api, and @cli_srj/local-client are missing a license.
+62 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+62 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+63 silly getCurrentSHA
+64 verbose getCurrentSHA 3fe5063922b6a533550c11f5b00de743ae9f5404
+65 silly lifecycle No script for "prepublish" in "root", continuing
+66 silly lifecycle No script for "prepare" in "root", continuing
+67 silly lifecycle No script for "prepublishOnly" in "root", continuing
+68 silly lifecycle No script for "prepack" in "root", continuing
+69 verbose pack-directory packages/local-client
+70 silly lifecycle No script for "prepublish" in "@cli_srj/local-client", continuing
+71 silly lifecycle No script for "prepare" in "@cli_srj/local-client", continuing
+72 silly lifecycle "prepublishOnly" starting in "@cli_srj/local-client"
+73 info lifecycle @cli_srj/local-client@2.0.0~prepublishOnly: @cli_srj/local-client@2.0.0
+74 verbose lifecycle @cli_srj/local-client@2.0.0~prepublishOnly: unsafe-perm in lifecycle true
+75 verbose lifecycle @cli_srj/local-client@2.0.0~prepublishOnly: PATH: /Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/npm-lifecycle/node-gyp-bin:/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/packages/local-client/node_modules/.bin:/Users/surajjaiswal/.nvm/versions/node/v14.18.0/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/mysql/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/surajjaiswal/.nvm/versions/node/v14.18.0/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/mysql/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+76 verbose lifecycle @cli_srj/local-client@2.0.0~prepublishOnly: CWD: /Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/packages/local-client
+77 silly lifecycle @cli_srj/local-client@2.0.0~prepublishOnly: Args: [ '-c', 'npm run build' ]
+78 silly lifecycle @cli_srj/local-client@2.0.0~prepublishOnly: Returned: code: 0  signal: null
+79 silly lifecycle "prepublishOnly" finished in "@cli_srj/local-client"
+80 silly lifecycle No script for "prepack" in "@cli_srj/local-client", continuing
+81 silly lifecycle No script for "postpack" in "@cli_srj/local-client", continuing
+82 verbose packed packages/local-client
+83 verbose pack-directory packages/cli
+84 verbose pack-directory packages/local-api
+85 silly lifecycle No script for "prepublish" in "cli_srj", continuing
+86 silly lifecycle No script for "prepublish" in "@cli_srj/local-api", continuing
+87 silly lifecycle No script for "prepare" in "cli_srj", continuing
+88 silly lifecycle No script for "prepare" in "@cli_srj/local-api", continuing
+89 silly lifecycle "prepublishOnly" starting in "cli_srj"
+90 info lifecycle cli_srj@2.0.0~prepublishOnly: cli_srj@2.0.0
+91 silly lifecycle "prepublishOnly" starting in "@cli_srj/local-api"
+92 info lifecycle @cli_srj/local-api@2.0.0~prepublishOnly: @cli_srj/local-api@2.0.0
+93 verbose lifecycle cli_srj@2.0.0~prepublishOnly: unsafe-perm in lifecycle true
+94 verbose lifecycle cli_srj@2.0.0~prepublishOnly: PATH: /Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/npm-lifecycle/node-gyp-bin:/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/packages/cli/node_modules/.bin:/Users/surajjaiswal/.nvm/versions/node/v14.18.0/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/mysql/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/surajjaiswal/.nvm/versions/node/v14.18.0/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/mysql/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+95 verbose lifecycle cli_srj@2.0.0~prepublishOnly: CWD: /Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/packages/cli
+96 silly lifecycle cli_srj@2.0.0~prepublishOnly: Args: [
+96 silly lifecycle   '-c',
+96 silly lifecycle   'esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\"production\\"'
+96 silly lifecycle ]
+97 silly lifecycle cli_srj@2.0.0~prepublishOnly: Returned: code: 0  signal: null
+98 verbose lifecycle @cli_srj/local-api@2.0.0~prepublishOnly: unsafe-perm in lifecycle true
+99 verbose lifecycle @cli_srj/local-api@2.0.0~prepublishOnly: PATH: /Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/npm-lifecycle/node-gyp-bin:/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/packages/local-api/node_modules/.bin:/Users/surajjaiswal/.nvm/versions/node/v14.18.0/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/mysql/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/surajjaiswal/.nvm/versions/node/v14.18.0/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/mysql/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+100 verbose lifecycle @cli_srj/local-api@2.0.0~prepublishOnly: CWD: /Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/packages/local-api
+101 silly lifecycle @cli_srj/local-api@2.0.0~prepublishOnly: Args: [ '-c', 'tsc' ]
+102 silly lifecycle "prepublishOnly" finished in "cli_srj"
+103 silly lifecycle No script for "prepack" in "cli_srj", continuing
+104 error ZlibError: zlib: unexpected end of file
+104 error     at Unzip.write (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/minizlib/index.js:147:22)
+104 error     at Unzip.flush (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/minizlib/index.js:98:10)
+104 error     at Unzip.end (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/minizlib/index.js:104:10)
+104 error     at Object.end (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/tar/lib/parse.js:421:21)
+104 error     at Yallist.<anonymous> (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/minipass/index.js:394:18)
+104 error     at Yallist.forEach (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/yallist/yallist.js:156:8)
+104 error     at ReadStream.emit (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/minipass/index.js:391:18)
+104 error     at ReadStream.emit (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/fs-minipass/index.js:154:22)
+104 error     at ReadStream.[maybeEmitEnd] (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/minipass/index.js:355:12)
+104 error     at ReadStream.end (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/minipass/index.js:235:27)
+104 error     at ReadStream.[_handleChunk] (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/fs-minipass/index.js:136:13)
+104 error     at ReadStream.[_onread] (/Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/fs-minipass/index.js:109:32)
+104 error     at /Users/surajjaiswal/Desktop/TSReact/surajFolder/jbook/node_modules/fs-minipass/index.js:101:22
