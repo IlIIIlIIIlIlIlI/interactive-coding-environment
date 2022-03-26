@@ -4,12 +4,6 @@
   "devDependencies": {
     "lerna": "^3.22.1"
   },
-  "dependencies": {
-    "@cli_srj/local-client": "^3.0.0",
-    "@cli_srj/local-api": "^3.0.0",
-    "cli_srj": "3.0.0"
-
-  },
   "scripts": {
     "start": "lerna run start --parallel"
   }
