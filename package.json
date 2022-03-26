@@ -41,7 +41,6 @@
     "web-vitals": "^0.2.4"
       },
   "scripts": {
-    "start": "lerna run start --parallel",
-    "build": "npm run start"
+    "start": "lerna run start --parallel"
   }
 }
